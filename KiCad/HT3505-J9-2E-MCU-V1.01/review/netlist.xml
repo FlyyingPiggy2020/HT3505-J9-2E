@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\w1545\Desktop\Project\机械臂\电机\HT3505-J9-2E\KiCad\HT3505-J9-2E-MCU-V1.01\HT3505-J9-2E-MCU-V1.01.kicad_sch</source>
+    <date>2026-09-18T18:01:10</date>
+    <tool>Eeschema 10.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DRV8323 三相智能栅极驱动器</title>
+        <company>User project</company>
+        <rev/>
+        <date/>
+        <source>HT3505-J9-2E-MCU-V1.01.kicad_sch</source>
+        <comment number="1" value="DRV8323H 40-pin WQFN/RTA, 6x6 mm"/>
+        <comment number="2" value="Custom symbol and IPC-7351 footprint"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45f35784-4856-403d-8e8d-3279131ee44e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>056d1403-4131-41ca-a5c7-a851d189e6ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>47nF/50V</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4141cbe2-c9a6-4a30-aa54-79c3f0d4c4ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cc7eef1-6b8b-4767-b6de-fefd42da597d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>0.1UF/16V</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0004ae90-d2da-48c6-8d61-040297aa14c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44554f1b-7b81-40f6-9e6b-62fa60af8dee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93765e3a-4f03-4c1e-8f5b-487a981ef944</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ae63c75-8521-44fd-96bd-7b964be9f657</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7b011f5-7281-47cf-8818-3c9334cb335e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>C</value>
+      <footprint>PCM_Capacitor_SMD_AKL:CP_Elec_5x3</footprint>
+      <description>SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:CP_Elec_5x3</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="CP_SMD_D5.0mm_H3.0mm" description="SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor polarized eu smd electrolytic 5x3mm 5mm"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c92559ec-a7b6-4c2a-a0d9-576e278d7ef4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>CP_SMD_D5.0mm_H3.0mm</value>
+      <footprint>PCM_Capacitor_SMD_AKL:CP_Elec_5x3</footprint>
+      <description>SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:CP_Elec_5x3</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="CP_SMD_D5.0mm_H3.0mm" description="SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor polarized eu smd electrolytic 5x3mm 5mm"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39c856ce-7883-473f-b9fe-97572c9eada1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>C_0603</value>
+      <footprint>PCM_Capacitor_SMD_AKL:C_0603_1608Metric</footprint>
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="C_0603" description="SMD 0603 MLCC capacitor, Alternate KiCad Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor ceramic chip mlcc smd 0603"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91b51edb-4bdd-49ea-a283-2bfb36753008</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>DSK36</value>
+      <footprint>PCM_Diode_SMD_AKL:D_SOD-123</footprint>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22bc51a0-974e-4154-8a29-535dc0b09bd6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f69de1f3-ca6c-4a8c-8239-ad12fec6612a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b888827e-ca35-4a2d-bec9-3820f85f7241</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8023117d-d179-42f4-813a-b94987ccf983</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>L</value>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>536e1688-717a-4b54-9f64-b3d9d1eb85ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>IRL60HS118</value>
+      <footprint>PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</footprint>
+      <datasheet>https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</datasheet>
+      <description>DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</field>
+        <field name="Description">DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Transistor_MOSFET_AKL" part="IRL60HS118" description="DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IRL60HS118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53342e2e-a39f-41ca-8bc5-bf631e67854b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>IRL60HS118</value>
+      <footprint>PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</footprint>
+      <datasheet>https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</datasheet>
+      <description>DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</field>
+        <field name="Description">DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Transistor_MOSFET_AKL" part="IRL60HS118" description="DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IRL60HS118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>437f829d-e67b-49a6-bc4e-a75dd1ca742f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>IRL60HS118</value>
+      <footprint>PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</footprint>
+      <datasheet>https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</datasheet>
+      <description>DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</field>
+        <field name="Description">DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Transistor_MOSFET_AKL" part="IRL60HS118" description="DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IRL60HS118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>758f5262-1e7b-452a-bddf-b924af8900cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q4">
+      <value>IRL60HS118</value>
+      <footprint>PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</footprint>
+      <datasheet>https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</datasheet>
+      <description>DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</field>
+        <field name="Description">DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Transistor_MOSFET_AKL" part="IRL60HS118" description="DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IRL60HS118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f957fbb-e373-407a-a1ea-867643cef3a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q5">
+      <value>IRL60HS118</value>
+      <footprint>PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</footprint>
+      <datasheet>https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</datasheet>
+      <description>DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</field>
+        <field name="Description">DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Transistor_MOSFET_AKL" part="IRL60HS118" description="DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IRL60HS118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>599c14a8-30a3-4368-9aad-7fea2e3a2785</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q6">
+      <value>IRL60HS118</value>
+      <footprint>PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</footprint>
+      <datasheet>https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</datasheet>
+      <description>DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</field>
+        <field name="Description">DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Transistor_MOSFET_AKL" part="IRL60HS118" description="DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet IRL60HS118"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b725dd4-c288-4ea6-987e-bc3369bbf9f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>12mΩ/750mW</value>
+      <footprint>PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb75f9e9-0154-42a3-8cd4-983d1ae0e512</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>12mΩ/750mW</value>
+      <footprint>PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81c925cf-38ce-474e-b989-203b49afb9d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>12mΩ/750mW</value>
+      <footprint>PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c733dde-4618-444c-b1db-f40c1e3a7c34</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87614ff3-25bc-4380-bb9d-e48b4c3d6c3a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8e6f583-67d5-42bf-9f3e-c321742998ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ead884cc-b949-4f23-a737-6a2bbfb13736</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80f24134-7217-4c42-b3ec-9435b9c18c37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>456d0625-5f53-43a5-87cd-d1c37dd65cc9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08fb470f-7b32-49b0-9828-3b510cd7268a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7be50250-b034-4304-b063-2aa485ba63cd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b40f73e-9247-47f5-b14d-2baa9cf5e146</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>882217ac-d455-47a6-bcdb-b0f3806261ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e710e3b-5dba-4504-ad77-9b1f6a02b9e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>DRV8323RHRGZR</value>
+      <footprint>DRV8323_Design:QFN-48_EP_7.4x7.4_Pitch0.5mm</footprint>
+      <datasheet>https://www.ti.com/cn/lit/ds/symlink/drv8323.pdf</datasheet>
+      <description>60V three-phase smart gate driver with three current-sense amplifiers; hardware interface</description>
+      <fields>
+        <field name="Footprint">DRV8323_Design:QFN-48_EP_7.4x7.4_Pitch0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/cn/lit/ds/symlink/drv8323.pdf</field>
+        <field name="Description">60V three-phase smart gate driver with three current-sense amplifiers; hardware interface</field>
+      </fields>
+      <libsource lib="DRV8323" part="DRV8323RHRGZR" description="60V three-phase smart gate driver with three current-sense amplifiers; hardware interface"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8dd3500-f0fa-4dd4-9301-b421cc170274</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="48"/>
+            <pin num="13"/>
+            <pin num="47"/>
+            <pin num="14"/>
+            <pin num="46"/>
+            <pin num="15"/>
+            <pin num="44"/>
+            <pin num="16"/>
+            <pin num="45"/>
+            <pin num="17"/>
+            <pin num="43"/>
+            <pin num="18"/>
+            <pin num="42"/>
+            <pin num="19"/>
+            <pin num="41"/>
+            <pin num="21"/>
+            <pin num="40"/>
+            <pin num="20"/>
+            <pin num="39"/>
+            <pin num="22"/>
+            <pin num="38"/>
+            <pin num="23"/>
+            <pin num="37"/>
+            <pin num="24"/>
+            <pin num="36"/>
+            <pin num="35"/>
+            <pin num="34"/>
+            <pin num="33"/>
+            <pin num="32"/>
+            <pin num="31"/>
+            <pin num="30"/>
+            <pin num="29"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="25"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>GD32F303CCT6</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>C116151_单片机(MCU-MPU-SOC)_GD32F303CCT6_规格书_WJ76606.PDF</datasheet>
+      <description>GigaDevice GD32F303CCT6, ARM Cortex-M4, 256KB Flash, 48-pin LQFP</description>
+      <fields>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">C116151_单片机(MCU-MPU-SOC)_GD32F303CCT6_规格书_WJ76606.PDF</field>
+        <field name="Description">GigaDevice GD32F303CCT6, ARM Cortex-M4, 256KB Flash, 48-pin LQFP</field>
+      </fields>
+      <libsource lib="GD32F303_lib" part="GD32F303CCT6" description="GigaDevice GD32F303CCT6, ARM Cortex-M4, 256KB Flash, 48-pin LQFP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HT3505-J9-2E-MCU-V1.01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37245df1-6b2e-425b-acd7-4a0492f5f687</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DRV8323" part="DRV8323RHRGZR">
+      <description>60V three-phase smart gate driver with three current-sense amplifiers; hardware interface</description>
+      <docs>https://www.ti.com/cn/lit/ds/symlink/drv8323.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8323RHRGZR</field>
+        <field name="Footprint">DRV8323_Design:QFN-48_EP_7.4x7.4_Pitch0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/cn/lit/ds/symlink/drv8323.pdf</field>
+        <field name="Description">60V three-phase smart gate driver with three current-sense amplifiers; hardware interface</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="PGND" type="power_in"/>
+        <pin num="3" name="CPL" type="bidirectional"/>
+        <pin num="4" name="CPH" type="bidirectional"/>
+        <pin num="5" name="VCP" type="power_out"/>
+        <pin num="6" name="VM" type="power_in"/>
+        <pin num="7" name="VDRAIN" type="input"/>
+        <pin num="8" name="GHA" type="output"/>
+        <pin num="9" name="SHA" type="bidirectional"/>
+        <pin num="10" name="GLA" type="output"/>
+        <pin num="11" name="SPA" type="input"/>
+        <pin num="12" name="SNA" type="input"/>
+        <pin num="13" name="SNB" type="input"/>
+        <pin num="14" name="SPB" type="input"/>
+        <pin num="15" name="GLB" type="output"/>
+        <pin num="16" name="SHB" type="bidirectional"/>
+        <pin num="17" name="GHB" type="output"/>
+        <pin num="18" name="GHC" type="output"/>
+        <pin num="19" name="SHC" type="bidirectional"/>
+        <pin num="20" name="GLC" type="output"/>
+        <pin num="21" name="SPC" type="input"/>
+        <pin num="22" name="SNC" type="input"/>
+        <pin num="23" name="SOC" type="output"/>
+        <pin num="24" name="SOB" type="output"/>
+        <pin num="25" name="SOA" type="output"/>
+        <pin num="26" name="VREF" type="power_in"/>
+        <pin num="27" name="DGND" type="power_in"/>
+        <pin num="28" name="nFAULT" type="output"/>
+        <pin num="29" name="MODE" type="input"/>
+        <pin num="30" name="IDRIVE" type="input"/>
+        <pin num="31" name="VDS" type="input"/>
+        <pin num="32" name="GAIN" type="output"/>
+        <pin num="33" name="ENABLE" type="input"/>
+        <pin num="34" name="CAL" type="input"/>
+        <pin num="35" name="AGND" type="power_in"/>
+        <pin num="36" name="DVDD" type="power_out"/>
+        <pin num="37" name="INHA" type="input"/>
+        <pin num="38" name="INLA" type="input"/>
+        <pin num="39" name="INHB" type="input"/>
+        <pin num="40" name="INLB" type="input"/>
+        <pin num="41" name="INHC" type="input"/>
+        <pin num="42" name="INLC" type="input"/>
+        <pin num="43" name="BGND" type="power_in"/>
+        <pin num="44" name="CB" type="power_out"/>
+        <pin num="45" name="SW" type="output"/>
+        <pin num="46" name="NC" type="no_connect"/>
+        <pin num="47" name="VIN" type="power_in"/>
+        <pin num="48" name="nSHDN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GD32F303_lib" part="GD32F303CCT6">
+      <description>GigaDevice GD32F303CCT6, ARM Cortex-M4, 256KB Flash, 48-pin LQFP</description>
+      <docs>C116151_单片机(MCU-MPU-SOC)_GD32F303CCT6_规格书_WJ76606.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GD32F303CCT6</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">C116151_单片机(MCU-MPU-SOC)_GD32F303CCT6_规格书_WJ76606.PDF</field>
+        <field name="Description">GigaDevice GD32F303CCT6, ARM Cortex-M4, 256KB Flash, 48-pin LQFP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13/TAMPER_RTC" type="bidirectional"/>
+        <pin num="3" name="PC14/OSC32IN" type="bidirectional"/>
+        <pin num="4" name="PC15/OSC32OUT" type="bidirectional"/>
+        <pin num="5" name="OSCIN" type="input"/>
+        <pin num="6" name="OSCOUT" type="output"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0/WKUP" type="bidirectional"/>
+        <pin num="11" name="PA1" type="bidirectional"/>
+        <pin num="12" name="PA2" type="bidirectional"/>
+        <pin num="13" name="PA3" type="bidirectional"/>
+        <pin num="14" name="PA4" type="bidirectional"/>
+        <pin num="15" name="PA5" type="bidirectional"/>
+        <pin num="16" name="PA6" type="bidirectional"/>
+        <pin num="17" name="PA7" type="bidirectional"/>
+        <pin num="18" name="PB0" type="bidirectional"/>
+        <pin num="19" name="PB1" type="bidirectional"/>
+        <pin num="20" name="PB2/BOOT1" type="bidirectional"/>
+        <pin num="21" name="PB10/I2C1_SCL/USART2_TX" type="bidirectional"/>
+        <pin num="22" name="PB11/I2C1_SDA/USART2_RX" type="bidirectional"/>
+        <pin num="23" name="VSS_1" type="power_in"/>
+        <pin num="24" name="VDD_1" type="power_in"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA8" type="bidirectional"/>
+        <pin num="30" name="PA9/USART0_TX" type="bidirectional"/>
+        <pin num="31" name="PA10/USART0_RX" type="bidirectional"/>
+        <pin num="32" name="PA11/CAN0_RX" type="bidirectional"/>
+        <pin num="33" name="PA12/CAN0_TX" type="bidirectional"/>
+        <pin num="34" name="PA13/SWDIO" type="bidirectional"/>
+        <pin num="35" name="VSS_2" type="power_in"/>
+        <pin num="36" name="VDD_2" type="power_in"/>
+        <pin num="37" name="PA14/SWCLK" type="bidirectional"/>
+        <pin num="38" name="PA15" type="bidirectional"/>
+        <pin num="39" name="PB3/JTDO" type="bidirectional"/>
+        <pin num="40" name="PB4/NJTRST" type="bidirectional"/>
+        <pin num="41" name="PB5" type="bidirectional"/>
+        <pin num="42" name="PB6" type="bidirectional"/>
+        <pin num="43" name="PB7" type="bidirectional"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="47" name="VSS_3" type="power_in"/>
+        <pin num="48" name="VDD_3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Capacitor_AKL" part="CP_SMD_D5.0mm_H3.0mm">
+      <description>SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_SMD_D5.0mm_H3.0mm</field>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:CP_Elec_5x3</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD Electrolytic Capacitor, 5mm Diameter, 3mm Height, European Symbol, Alternate KiCad Library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Capacitor_AKL" part="C_0603">
+      <description>SMD 0603 MLCC capacitor, Alternate KiCad Library</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0603</field>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD 0603 MLCC capacitor, Alternate KiCad Library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Transistor_MOSFET_AKL" part="IRL60HS118">
+      <description>DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</description>
+      <docs>https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRL60HS118</field>
+        <field name="Footprint">PCM_Package_DFN_QFN_AKL:DFN-6-2EP_2x2mm_P0.65mm_EP1.15x0.95mm_EP0.8x0.48mm</field>
+        <field name="Datasheet">https://www.tme.eu/Document/53ff5ed20803f33464d9cb2541e120f0/IRL60HS118.pdf</field>
+        <field name="Description">DFN 2x2 N-MOSFET enchancement mode transistor, 60V, 18.5A, 11.5W, Alternate KiCAD Library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="S" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="DRV8323">
+      <uri>${KIPRJMOD}/symbols/DRV8323.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Capacitor_AKL">
+      <uri>${KICAD10_3RD_PARTY}/symbols/com_github_dawidcislo_alternate-kicad-library/Capacitor_AKL.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Transistor_MOSFET_AKL">
+      <uri>${KICAD10_3RD_PARTY}/symbols/com_github_dawidcislo_alternate-kicad-library/Transistor_MOSFET_AKL.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="VREF_26" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="ENABLE_33" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="VBAT_1" pintype="power_in"/>
+      <node ref="U2" pin="24" pinfunction="VDD_1_24" pintype="power_in"/>
+      <node ref="U2" pin="36" pinfunction="VDD_2_36" pintype="power_in"/>
+      <node ref="U2" pin="48" pinfunction="VDD_3_48" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="VDDA_9" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ADC_BUS_V" class="Default">
+      <node ref="U1" pin="23" pinfunction="SOC_23" pintype="output"/>
+      <node ref="U2" pin="12" pinfunction="PA2_12" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/ADC_PHASE_A" class="Default">
+      <node ref="U1" pin="25" pinfunction="SOA_25" pintype="output"/>
+      <node ref="U2" pin="10" pinfunction="PA0/WKUP_10" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ADC_PHASE_B" class="Default">
+      <node ref="U1" pin="24" pinfunction="SOB_24" pintype="output"/>
+      <node ref="U2" pin="11" pinfunction="PA1_11" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/CAL" class="Default">
+      <node ref="U1" pin="34" pinfunction="CAL_34" pintype="input"/>
+      <node ref="U2" pin="38" pinfunction="PA15_38" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/CAN0_RX" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U2" pin="32" pinfunction="PA11/CAN0_RX_32" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/CAN0_TX" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U2" pin="33" pinfunction="PA12/CAN0_TX_33" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/GHA" class="Default">
+      <node ref="Q1" pin="3" pinfunction="G_3" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GHA_8" pintype="output"/>
+    </net>
+    <net code="9" name="/GHB" class="Default">
+      <node ref="Q3" pin="3" pinfunction="G_3" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="GHB_17" pintype="output"/>
+    </net>
+    <net code="10" name="/GHC" class="Default">
+      <node ref="Q5" pin="3" pinfunction="G_3" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="GHC_18" pintype="output"/>
+    </net>
+    <net code="11" name="/GLA" class="Default">
+      <node ref="Q2" pin="3" pinfunction="G_3" pintype="input"/>
+      <node ref="U1" pin="10" pinfunction="GLA_10" pintype="output"/>
+    </net>
+    <net code="12" name="/GLB" class="Default">
+      <node ref="Q4" pin="3" pinfunction="G_3" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="GLB_15" pintype="output"/>
+    </net>
+    <net code="13" name="/GLC" class="Default">
+      <node ref="Q6" pin="3" pinfunction="G_3" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="GLC_20" pintype="output"/>
+    </net>
+    <net code="14" name="/NRST" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="NRST_7" pintype="input"/>
+    </net>
+    <net code="15" name="/SHA" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="S_4" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="S_7" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D_8" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="SHA_9" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/SHB" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q3" pin="4" pinfunction="S_4" pintype="passive"/>
+      <node ref="Q3" pin="7" pinfunction="S_7" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q4" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q4" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q4" pin="8" pinfunction="D_8" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="SHB_16" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/SHC" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="Q5" pin="4" pinfunction="S_4" pintype="passive"/>
+      <node ref="Q5" pin="7" pinfunction="S_7" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q6" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q6" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q6" pin="8" pinfunction="D_8" pintype="passive"/>
+    </net>
+    <net code="18" name="/SNA" class="Default">
+      <node ref="Q6" pin="4" pinfunction="S_4" pintype="passive"/>
+      <node ref="Q6" pin="7" pinfunction="S_7" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SNA_12" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="SNB_13" pintype="input"/>
+      <node ref="U1" pin="21" pinfunction="SPC_21" pintype="input"/>
+      <node ref="U1" pin="22" pinfunction="SNC_22" pintype="input"/>
+    </net>
+    <net code="19" name="/SPA" class="Default">
+      <node ref="Q2" pin="4" pinfunction="S_4" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="S_7" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SPA_11" pintype="input"/>
+    </net>
+    <net code="20" name="/SPB" class="Default">
+      <node ref="Q4" pin="4" pinfunction="S_4" pintype="passive"/>
+      <node ref="Q4" pin="7" pinfunction="S_7" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SPB_14" pintype="input"/>
+    </net>
+    <net code="21" name="/SWCLK" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="PA14/SWCLK_37" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/SWDIO" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U2" pin="34" pinfunction="PA13/SWDIO_34" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/TIMER0_CH0" class="Default">
+      <node ref="U1" pin="37" pinfunction="INHA_37" pintype="input"/>
+      <node ref="U2" pin="29" pinfunction="PA8_29" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/TIMER0_CH0_ON" class="Default">
+      <node ref="U1" pin="38" pinfunction="INLA_38" pintype="input"/>
+      <node ref="U2" pin="26" pinfunction="PB13_26" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/TIMER0_CH1" class="Default">
+      <node ref="U1" pin="39" pinfunction="INHB_39" pintype="input"/>
+      <node ref="U2" pin="30" pinfunction="PA9/USART0_TX_30" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/TIMER0_CH1_ON" class="Default">
+      <node ref="U1" pin="40" pinfunction="INLB_40" pintype="input"/>
+      <node ref="U2" pin="27" pinfunction="PB14_27" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/TIMER0_CH2" class="Default">
+      <node ref="U1" pin="41" pinfunction="INHC_41" pintype="input"/>
+      <node ref="U2" pin="31" pinfunction="PA10/USART0_RX_31" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/TIMER0_CH2_ON" class="Default">
+      <node ref="U1" pin="42" pinfunction="INLC_42" pintype="input"/>
+      <node ref="U2" pin="28" pinfunction="PB15_28" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/VDRAIN" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D_8" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q3" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q3" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q3" pin="8" pinfunction="D_8" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q5" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q5" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q5" pin="8" pinfunction="D_8" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="VIN_47" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VM_6" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VDRAIN_7" pintype="input"/>
+    </net>
+    <net code="30" name="/nFAULT" class="Default">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="nFAULT_28" pintype="output"/>
+    </net>
+    <net code="31" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PGND_2" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="DGND_27" pintype="power_in"/>
+      <node ref="U1" pin="29" pinfunction="MODE_29" pintype="input"/>
+      <node ref="U1" pin="35" pinfunction="AGND_35" pintype="power_in"/>
+      <node ref="U1" pin="43" pinfunction="BGND_43" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="VSS_1_23" pintype="power_in"/>
+      <node ref="U2" pin="35" pinfunction="VSS_2_35" pintype="power_in"/>
+      <node ref="U2" pin="47" pinfunction="VSS_3_47" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VSSA_8" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

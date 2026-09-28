@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Motor_Interfaces")(type "KiCad")(uri "${KIPRJMOD}/Motor_Interfaces.pretty")(options "")(descr "Project CAN connector and single wire solder pads"))
+	(lib (name "DRV8323_Design")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr "DRV8323 RTA 40-pin footprint"))
+)

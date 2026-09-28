@@ -1,0 +1,73 @@
+ERC report (2026-09-19T12:34:08, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(41.91 mm, 147.32 mm): Horizontal Wire, length 2.54 mm
+    @(39.37 mm, 151.13 mm): Horizontal Wire, length 2.54 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(100.33 mm, 82.55 mm): Horizontal Wire, length 2.54 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(232.41 mm, 73.66 mm): Vertical Wire, length 5.08 mm
+    @(224.79 mm, 73.66 mm): Horizontal Wire, length 7.62 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(236.22 mm, 76.20 mm): Vertical Wire, length 7.62 mm
+    @(260.35 mm, 76.20 mm): Horizontal Wire, length 24.13 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(240.03 mm, 60.96 mm): Vertical Wire, length 12.70 mm
+    @(224.79 mm, 60.96 mm): Horizontal Wire, length 15.24 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(245.11 mm, 68.58 mm): Vertical Wire, length 21.59 mm
+    @(260.35 mm, 68.58 mm): Horizontal Wire, length 15.24 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(283.21 mm, 30.48 mm): Horizontal Wire, length 2.54 mm
+    @(283.21 mm, 30.48 mm): Horizontal Wire, length 35.56 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(283.21 mm, 40.64 mm): Vertical Wire, length 15.24 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(316.23 mm, 81.28 mm): Horizontal Wire, length 40.64 mm
+    @(356.87 mm, 81.28 mm): Horizontal Wire, length 3.81 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(316.23 mm, 83.82 mm): Horizontal Wire, length 36.83 mm
+    @(353.06 mm, 83.82 mm): Vertical Wire, length 12.70 mm
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(356.87 mm, 78.74 mm): Horizontal Wire, length 3.81 mm
+    @(316.23 mm, 78.74 mm): Horizontal Wire, length 40.64 mm
+[lib_symbol_issues]: 当前配置不包含符号库 'GD32F303_lib'
+    ; warning
+    @(69.85 mm, 49.53 mm): Symbol U2 [GD32F303CCT6]
+[multiple_net_names]: SNB 和 SPC 都连接到同一项上; 将使用 SNB 作为网表中的网络名称
+    ; warning
+    @(275.59 mm, 111.76 mm): Label 'SNB'
+    @(90.17 mm, 165.10 mm): Label 'SPC'
+[multiple_net_names]: GND 和 SNC 都连接到同一项上; 将使用 GND 作为网表中的网络名称
+    ; warning
+    @(25.40 mm, 46.99 mm): Symbol #PWR033 Pin 1 [Power input, Line]
+    @(90.17 mm, 172.72 mm): Label 'SNC'
+[multiple_net_names]: VDRAIN 和 VM 都连接到同一项上; 将使用 VDRAIN 作为网表中的网络名称
+    ; warning
+    @(252.73 mm, 83.82 mm): Label 'VDRAIN'
+    @(254.00 mm, 45.72 mm): Label 'VM'
+[pin_to_pin]: 类型为 Bidirectional 和 Power output 的引脚已连接
+    ; warning
+    @(273.05 mm, 55.88 mm): Symbol U1 Pin 49 [EP, Bidirectional, Line]
+    @(158.75 mm, 116.84 mm): Symbol #FLG01 Pin 1 [Power output, Line]
+
+ ** ERC messages: 16  Errors 11  Warnings 5
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

@@ -1,0 +1,36 @@
+单片机 GD32F303CCT6
+MOSFET IRL60HS118
+栅极驱动芯片 DRV8323RHRGZR
+
+
+
+PA8   TIMER0_CH0      A相上管
+PB13  TIMER0_CH0_ON   A相下管
+
+PA9   TIMER0_CH1      B相上管
+PB14  TIMER0_CH1_ON   B相下管
+
+PA10  TIMER0_CH2      C相上管
+PB15  TIMER0_CH2_ON   C相下管
+
+PA0   ADC A相电流
+PA1   ADC B相电流
+PA2   ADC 母线电压
+
+PA11  CAN0_RX
+PA12  CAN0_TX
+
+PA13  SWDIO
+PA14  SWCLK
+
+锁定板框、安装避让、两颗磁编码器中心和出线位置。
+放六颗MOS管、两个采样电阻、母线电容，优先缩短功率回路。
+放DRV8323，靠近MOS管；电流采样从电阻两端分别引出Kelvin线。
+放Buck、电感和续流二极管，让开关回路集中，远离磁编码器和晶振。
+放MCU、晶振、LDO和CAN，最后补齐紧贴电源脚的去耦电容。
+
+
+F.Cu，顶层** | 元件、MOS功率回路、栅极驱动、主要信号 
+In1.Cu，内层1** | 尽量完整的GND参考平面 
+In2.Cu，内层2** | 电源分配、少量辅助信号 
+B.Cu，底层** | 磁编码器、必要元件和辅助布线，空余处铺地 
